@@ -4,16 +4,13 @@
   <!-- Imu sensor  -->
   <link name="imu_link">
     <visual name="imu_visual">
-      <geometry>
-        <mesh filename="package://bimo/meshes/MPU6050.dae"/>
-      </geometry>
     </visual>
   </link>
 
   <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>
     <child link="imu_link"/>
-    <origin xyz="0.190 0 0.10" rpy="0 0 0"/> 
+    <origin xyz="0.150 0 0.08" rpy="0 0 0"/> 
   </joint>
 
  <gazebo reference="imu_link">

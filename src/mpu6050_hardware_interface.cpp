@@ -1,4 +1,4 @@
-#include "bimo/mpu6050_hardware_interface.hpp"
+#include "mpu6050_hardware_interface.hpp"
 
 namespace bimo
 {

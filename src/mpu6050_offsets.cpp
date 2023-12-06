@@ -2,7 +2,7 @@
 
 // Adapted from Example.cpp at https://github.com/alex-mous/MPU6050-C-CPP-Library-for-Raspberry-Pi
 
-#include "bimo/mpu6050_lib.h"
+#include "mpu6050_lib.h"
 
 MPU6050 device(0x68);
 

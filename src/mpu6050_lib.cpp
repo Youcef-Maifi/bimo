@@ -3,7 +3,7 @@
 //Copyright (c) 2019, Alex Mous
 //Licensed under the CC BY-NC SA 4.0
 
-#include "bimo/mpu6050_lib.h"
+#include "mpu6050_lib.h"
 
 MPU6050::MPU6050(int8_t addr, bool run_update_thread) {
 	int status;

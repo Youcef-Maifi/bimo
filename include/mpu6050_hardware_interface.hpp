@@ -1,5 +1,5 @@
-#ifndef _BIMO__MPU6050_HARDWARE_HPP_
-#define _LBIMO__MPU6050_HARDWARE_HPP_
+#ifndef _MPU6050_HARDWARE_HPP_
+#define _MPU6050_HARDWARE_HPP_
 
 #include <memory>
 #include <thread>
