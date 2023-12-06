@@ -58,7 +58,7 @@ CallbackReturn MPU6050Hardware::on_deactivate(const rclcpp_lifecycle::State & /*
 	return CallbackReturn::SUCCESS;
 }
 
-return_type MPU6050Hardware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
+return_type MPU6050Hardware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & /*period*/)
 {
 	// Obtain current euler angles
 	device.getAngle(0, &euler_angles[0]);
